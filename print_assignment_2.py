@@ -1,0 +1,11 @@
+# Second Python Script containing 10 lines of code that include a print statement.
+print("This is the second Python script I'm writing.")
+print("I have no idea what to write")
+print("I'm just going to ramble again.")
+print("Hmm... I'm thinking of what to write.")
+print("Let's talk about my internship in detail.")
+print("At first, I was scared because I had no idea what to do.")
+print("You can imagine, someone who has never worked with data before.")
+print("I was scared of messing up.")
+print("But I'm glad I took the opportunity.")
+print("I'm learning a lot and I'm excited to learn more. The end.")
