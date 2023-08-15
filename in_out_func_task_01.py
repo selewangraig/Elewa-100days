@@ -1,10 +1,11 @@
 #Write a python program to prompt the user to create a shopping list and calculate the total cost.
 #function to prompt user to create shopping list.
 
-shop_list = {}
+
 def shopping_list():
     cost_item = float
     global shop_list
+    shop_list = {}
 
     print("\n*****")
     print("This is your personal shopping list!")
