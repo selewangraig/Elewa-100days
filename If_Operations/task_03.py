@@ -18,6 +18,7 @@ def giftee():
 def books():
     global gift
     if gift == "1":
+        print("\n")
         print("1. Motivational")
         print("2. Fantasy")
         print("3. Horror")
@@ -28,29 +29,30 @@ def books():
                                "'Awaken the Giant Within' by Tony Robbins",
                                "'Think and Grow Rich' by Napoleon Hill"]
             random_book = random.choice (motivation_list)
-            print(f"You should buy them: {random_book}")
+            print(f"\nYou should buy them: {random_book}")
 
         elif book_choice == "2":
             fantasy_list = ["'The Lord of the Rings' by J.R.R. Tolkien",
                             "'A Song of Ice and Fire' series by George R.R. Martin",
                             "'Harry Potter' series by J.K. Rowling"]
             random_book = random.choice(fantasy_list)
-            print(f"You should buy them: {random_book}")
+            print(f"\nYou should buy them: {random_book}")
         
         elif book_choice == "3":
             horror_list = ["'The Shining' by Stephen King",
                            "'The Haunting of Hill House' by Shirley Jackson",
                            "'The Exorcist' by William Peter Blatty"]
             random_book = random.choice(horror_list)
-            print(f"You should buy them: {random_book}")
+            print(f"\nYou should buy them: {random_book}")
         else:
-            print("Invalid Choice!")
+            print("\nInvalid Choice!")
     else:
-        print("Invalid Choice!")
+        print("\nInvalid Choice!")
 
 def movies():
     global gift
     if gift == "2":
+        print("\n")
         print("1. Action/Adventure")
         print("2. Comedy")
         print("3. Horror")
@@ -59,26 +61,27 @@ def movies():
         if movie_choice == "1":
             actionadventure_list = ["Jumanji", "Jurassic Park", "Mad Max: Fury"]
             random_movie = random.choice(actionadventure_list)
-            print(f"You should buy them: {random_movie}") 
+            print(f"\nYou should buy them: {random_movie}") 
         
         elif movie_choice == "2":
             comedy_list = ["The Office", "Friends", "Big Bang Theory"]
             random_movie = random.choice(comedy_list)
-            print(f"You should buy them: {random_movie}")
+            print(f"\nYou should buy them: {random_movie}")
         
         elif movie_choice == "3":
             horror_list = ["The Nun", "Annabelle", "Lights Out"]
             random_movie = random.choice(horror_list)
-            print(f"You should buy them: {random_movie}")
+            print(f"\nYou should buy them: {random_movie}")
         
         else:
-            print("Invalid Choice!")
+            print("\nInvalid Choice!")
     else:
-        print("Invalid Choice!")
+        print("\nInvalid Choice!")
 
 def games():
     global gift
     if gift == "3":
+        print("\n")
         print("1. Board Games")
         print("2. Video Games")
         game_choice = input("What kind of game do they like?")
@@ -86,17 +89,17 @@ def games():
         if game_choice == "1":
             boardgame_list = ["Monopoly", "Chess"]
             random_game = random.choice(boardgame_list)
-            print(f"You should buy them: {random_game}")
+            print(f"\nYou should buy them: {random_game}")
         
         elif game_choice == "2":
             video_list = ["Call Of Duty", "Minecraft"]
             random_game = random.choice(video_list)
-            print(f"You should buy them: {random_game}")
+            print(f"\nYou should buy them: {random_game}")
 
         else:
-            print("Invalid Choice")
+            print("\nInvalid Choice")
     else:
-        print("Invalid Choice")
+        print("\nInvalid Choice")
 
 def check_gift():
     global gift
